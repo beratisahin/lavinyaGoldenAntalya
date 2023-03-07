@@ -32,26 +32,26 @@ function Iletisim() {
 
         <p style={{ fontSize: "medium", textAlign: "left" }}>
               {" "}
-              <a href="mailto:lavinyaAntalya@gmail.com">
+              <a href="mailto:lavinya.golden.antalya@gmail.com">
                 <ContactMailIcon style={{ fontSize: "x-large" }} />
               </a>
-              &nbsp; lavinyaAntalya@gmail.com
+              &nbsp; lavinya.golden.antalya@gmail.com
             </p>
             <p style={{ fontSize: "medium", textAlign: "left", }}>
               {" "}
               <a
-                href="tel: +905527394624"
+                href="tel: +905445374882"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <WhatsAppIcon style={{ fontSize: "x-large",color:"#25d366" }} />
               </a>
-              &nbsp; <b>0552 739 46 24</b> <FontAwesomeIcon icon="coffee" size="lg" /> 
+              &nbsp; <b>0544 537 48 82</b> <FontAwesomeIcon icon="coffee" size="lg" /> 
             </p>
             <p style={{ fontSize: "medium", textAlign: "left", }}>
               {" "}
               <a
-                href="tel: +905528179398"
+                href="tel: +905445374882"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -67,7 +67,8 @@ function Iletisim() {
               >
                 <LocationOnIcon style={{ fontSize: "x-large",color:"#c71535" }} />
               </a>
-              &nbsp; Remzi Oğuz Arık Mahallesi Tunalı Hilmi Caddesi Tunca Apartmanı No:90 Daire:17 Çankaya / Antalya
+              &nbsp; Tahıl Pazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24 <br/>
+              <b style={{ paddingLeft: "10px" }}>Muratpaşa / ANTALYA</b>{" "}
               
             </p>
       </div>

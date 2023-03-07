@@ -82,31 +82,31 @@ export default class Foooter extends Component {
               <tbody>
                 <tr style={{ height: "2px" }}>
                   <td>Pazartesi</td>
-                  <td>09:30 - 19:30</td>
+                  <td>09:00 - 19:00</td>
                 </tr>
                 <tr>
                   <td>Salı</td>
-                  <td>09:30 - 19:30</td>
+                  <td>09:00 - 19:00</td>
                 </tr>
                 <tr>
                   <td>Çarşamba</td>
-                  <td>09:30 - 19:30</td>
+                  <td>09:00 - 19:00</td>
                 </tr>
                 <tr>
                   <td>Perşembe</td>
-                  <td>09:30 - 19:30</td>
+                  <td>09:00 - 19:00</td>
                 </tr>
                 <tr>
                   <td>Cuma</td>
-                  <td>09:30 - 19:30</td>
+                  <td>09:00 - 19:00</td>
                 </tr>
                 <tr>
                   <td>Cumartesi</td>
-                  <td>09:30 - 19:30</td>
+                  <td>09:00 - 19:00</td>
                 </tr>
                 <tr>
                   <td>Pazar</td>
-                  <td>09:30 - 19:30</td>
+                  <td>09:00 - 19:00</td>
                 </tr>
               </tbody>
             </table>
@@ -144,7 +144,7 @@ export default class Foooter extends Component {
               />
             </a>
             <a
-              href="https://wa.me/+905527394624" 
+              href="https://wa.me/+905445374882" 
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -155,7 +155,7 @@ export default class Foooter extends Component {
               />
             </a>
             <a
-              href="tel: +905527394624"
+              href="tel: +905445374882"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -177,21 +177,21 @@ export default class Foooter extends Component {
             <br />
             <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a href="mailto:lavinyaAntalya@gmail.com">
+              <a href="mailto:lavinya.golden.antalya@gmail.com">
                 <EmailIcon style={{ fontSize: "24px" }} />
               </a>
-              &nbsp; lavinyaAntalya@gmail.com
+              &nbsp; lavinya.golden.antalya@gmail.com
             </p>
             <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a
-                href="tel: +905527394624"
+                href="tel: +905445374882"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <SettingsPhoneIcon style={{ fontSize: "24px" }} />
               </a>
-              &nbsp; 0552 273 46 24 <FontAwesomeIcon icon="coffee" size="lg" />
+              &nbsp; 0544 537 48 82 <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
             <p style={{ fontSize: "14px", textAlign: "left" }}>
               <a
@@ -201,8 +201,8 @@ export default class Foooter extends Component {
               >
                 <HomeIcon style={{ fontSize: "24px" }} />
               </a>
-              &nbsp; Remzi Oğuz Arık Mahallesi Tunalı Hilmi Caddesi Tunca Apartmanı No:90 Daire:17
-              <b style={{ paddingLeft: "10px" }}>Çankaya / Antalya</b>{" "}
+              &nbsp; Tahıl Pazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24
+              <b style={{ paddingLeft: "10px" }}>Muratpaşa / ANTALYA</b>{" "}
             </p>
           </div>
 
@@ -248,7 +248,7 @@ export default class Foooter extends Component {
 
           <div className="roof-phone">
             <a
-              href="tel: +905527394624" 
+              href="tel: +905445374882" 
               className="phone_float"
               target="_blank"
               rel="noopener noreferrer"
@@ -259,7 +259,7 @@ export default class Foooter extends Component {
 
           <div className="roof-whatsapp">
             <a
-              href="https://wa.me/+905527394624"
+              href="https://wa.me/+905445374882"
               className="whatsapp_float"
               target="_blank"
               rel="noopener noreferrer"
