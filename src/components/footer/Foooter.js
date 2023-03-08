@@ -203,7 +203,7 @@ export default class Foooter extends Component {
                 <HomeIcon style={{ fontSize: "24px" }} />
               </a>
               &nbsp; Tahılpazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24
-              ( MarkAntalya AVM Karşısı, ING Bank Üzerindeyiz )
+              (MarkAntalya AVM Karşısı, ING Bank Üzerindeyiz)
               
             </p>
 
