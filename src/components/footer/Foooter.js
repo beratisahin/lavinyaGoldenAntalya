@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import PhoneIcon from "@material-ui/icons/Phone";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
+
 import MainLogo2 from "../header/lavinyaLogo.png";
 
 import React, { Component } from "react";
@@ -202,7 +203,20 @@ export default class Foooter extends Component {
                 <HomeIcon style={{ fontSize: "24px" }} />
               </a>
               &nbsp; Tahılpazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24
-              <b style={{ paddingLeft: "10px" }}>Muratpaşa / ANTALYA</b>{" "}
+              ( MarkAntalya AVM Karşısı, ING Bank Üzerindeyiz )
+              
+            </p>
+
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
+              <a
+                href="https://goo.gl/maps/JKy272hFMBL8aCCJ7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LocationOnIcon style={{ fontSize: "24px" }} />
+              </a>
+              &nbsp; 
+              <b>Muratpaşa / ANTALYA</b>{" "}
             </p>
           </div>
 

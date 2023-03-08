@@ -7,6 +7,8 @@ import Mail from "./ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
+import HomeIcon from "@material-ui/icons/Home";
+
 
 function Iletisim() {
   useDocumentTitle("İletişim - Antalya Lavinya Golden Güzellik Merkezi ");
@@ -45,18 +47,30 @@ function Iletisim() {
           &nbsp; <b>0544 537 48 82</b>{" "}
           <FontAwesomeIcon icon="coffee" size="lg" />
         </p>
-        <p style={{ fontSize: "medium", textAlign: "left" }}>
-          <a
-            href="https://goo.gl/maps/JKy272hFMBL8aCCJ7"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <LocationOnIcon style={{ fontSize: "x-large", color: "#c71535" }} />
-          </a>
-          &nbsp; Tahılpazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi
-          No:11 Kat:7 Daire:24 <br />
-          <b style={{ paddingLeft: "10px" }}>Muratpaşa / ANTALYA</b>{" "}
-        </p>
+        <p style={{ fontSize: "14px", textAlign: "left" }}>
+              <a
+                href="https://goo.gl/maps/JKy272hFMBL8aCCJ7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <HomeIcon style={{ fontSize: "24px"}} />
+              </a>
+              &nbsp; Tahılpazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24
+              ( MarkAntalya AVM Karşısı, ING Bank Üzerindeyiz )
+              
+            </p>
+
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
+              <a
+                href="https://goo.gl/maps/JKy272hFMBL8aCCJ7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LocationOnIcon style={{ fontSize: "24px" , color:"red" }} />
+              </a>
+              &nbsp; 
+              <b>Muratpaşa / ANTALYA</b>{" "}
+            </p>
       </div>
 
       <div class="col-lg-6 col-md-6 col-sm-12 col-12">
