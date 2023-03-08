@@ -2,7 +2,7 @@ import "./FotografVideo.css";
 import React from 'react';
 import useDocumentTitle from "../../useDocumentTitle";
 import Title from "../title/Title";
-import Instagram from "./lavinyaProfil.webp"
+import Instagram from "./instagramProfile.webp"
 
 export default function FotografVideo() {
     useDocumentTitle('Fotoğraflar- Antalya Lavinya Golden Güzellik Merkezi');
