@@ -67,7 +67,7 @@ function Home() {
         >
           <p className="harita_baslik">Lokasyonumuz</p>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12242.481537682064!2d32.8603997!3d39.9051308!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34fb21fdc10c7%3A0x2b0faa7595dfec08!2sLavinya%20Golden%20Antalya!5e0!3m2!1str!2str!4v1677537876831!5m2!1str!2str"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12763.416476154647!2d30.703794!3d36.893838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2958a6926cf88549%3A0xd34d698391e21bd4!2sLavinya%20Golden%20Antalya!5e0!3m2!1str!2str!4v1678278213486!5m2!1str!2str"
             className="googleharita"
             style={{
               width: "100%",

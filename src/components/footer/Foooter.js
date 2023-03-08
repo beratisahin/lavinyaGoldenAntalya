@@ -195,13 +195,13 @@ export default class Foooter extends Component {
             </p>
             <p style={{ fontSize: "14px", textAlign: "left" }}>
               <a
-                href="https://goo.gl/maps/kvSBfUQnSYkR1hWa9"
+                href="https://goo.gl/maps/JKy272hFMBL8aCCJ7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <HomeIcon style={{ fontSize: "24px" }} />
               </a>
-              &nbsp; Tahıl Pazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24
+              &nbsp; Tahılpazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24
               <b style={{ paddingLeft: "10px" }}>Muratpaşa / ANTALYA</b>{" "}
             </p>
           </div>
@@ -237,7 +237,7 @@ export default class Foooter extends Component {
 
           <div className="roof-location">
             <a
-              href="https://goo.gl/maps/kvSBfUQnSYkR1hWa9"
+              href="https://goo.gl/maps/JKy272hFMBL8aCCJ7"
               className="location_float"
               target="_blank"
               rel="noopener noreferrer"
