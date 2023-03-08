@@ -80,8 +80,8 @@ export default class Navbar extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="/kas-laminasyonu" class="menu-link">
-                    Kaş Laminasyonu
+                  <a href="/kalici-makyaj" class="menu-link">
+                    Kalıcı Makyaj
                   </a>
                 </li>
                 <li>

@@ -63,7 +63,7 @@ export default class Foooter extends Component {
               Antalya Lavinya Golden Güzellik Merkezi olarak alanında uzman
               personellerimizle siz değerli danışanlarımıza lazer epilasyon,
               kavitasyon, bölgesel incelme, slim zayıflama, kirpik lifting,
-              yosun peeling, hydrafacial cilt bakımı vb alanlarında
+              yosun peeling, hydrafacial cilt bakımı, kalıcı makyaj vb alanlarında
               hijyenik ortamda en iyi şekilde hizmet vermek temel önceliğimizdir.
               Son teknoloji cihazlarımızla bayanlar ve baylar için hizmetlerimiz
               bulunmaktadır.

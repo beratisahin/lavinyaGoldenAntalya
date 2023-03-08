@@ -75,7 +75,7 @@ export default function Owl() {
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
                     <img src={o1} className="owlCarouselImage" alt="Antalya Güzellik Merkezi" loading="lazy" title="Antalya Lazer Epilasyon"></img>
-                   <p className="owlCarouselContent">Microblading</p>
+                   <p className="owlCarouselContent">Kalıcı Makyaj</p>
                </div> 
             </div>
 
