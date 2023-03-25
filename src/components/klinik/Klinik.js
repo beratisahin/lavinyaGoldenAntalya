@@ -9,7 +9,6 @@ import k3 from "./kampanyalar/3.webp";
 import k4 from "./kampanyalar/4.webp";
 import k5 from "./kampanyalar/5.webp";
 import k6 from "./kampanyalar/6.webp";
-import k7 from "./kampanyalar/7.webp";
 
 
 
@@ -58,36 +57,31 @@ export default function Klinik() {
                  
                <KampComp
                     kampanyaResim={k1}
-                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20T%C3%BCm%20Kol%2C%20Koltukalt%C4%B1%2C%20T%C3%BCm%20Bacak%2C%20Genital%20B%C3%B6lge%20ve%20Popo%20Lazer%20Epilasyon%20(1700%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20T%C3%BCm%20Bacak%2C%20Koltukalt%C4%B1%20ve%20Genital%20B%C3%B6lge%20Lazer%20Epilasyon%20(8%20Seans%20999%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k2}
-                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20Koltukalt%C4%B1%2C%20T%C3%BCm%20Bacak%20ve%20Genital%20B%C3%B6lge%20Lazer%20Epilasyon%20(1200%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20T%C3%BCm%20V%C3%BCcut%20Lazer%20Epilasyon%20(8%20Seans%201499%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
                 <KampComp
                     kampanyaResim={k3}
-                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Tepeden%20T%C4%B1rna%C4%9Fa%20T%C3%BCm%20V%C3%BCcut%20Lazer%20Epilasyon%20(2800%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Baylar%20i%C3%A7in%20Ense%2C%20Boyun%20ve%20Yanak%20Lazer%20Epilasyon%20(12%20Seans%20599%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k4}
-                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Bayanlar%20i%C3%A7in%20Y%C3%BCz%20B%C3%B6lgesi%20Lazer%20Epilasyon%20(650%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Baylar%20i%C3%A7in%20Kemer%20%C3%9Cst%C3%BC%20Lazer%20Epilasyon%20(8%20Seans%201499%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k5}
-                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Erkekler%20i%C3%A7in%20Ense%2C%20Boyun%20ve%20Yanak%20Lazer%20Epilasyon%20(650%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Hydrafacial%20Cilt%20Bak%C4%B1m%C4%B1%20(4%20Seans%20599%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k6}
-                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Komple%20Kemer%C3%BCst%C3%BC%20Lazer%20Epilasyon%20(1700%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
-                />
-
-                <KampComp
-                    kampanyaResim={k7}
-                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Erkekler%20i%C3%A7in%20Tepeden%20T%C4%B1rna%C4%9Fa%20T%C3%BCm%20V%C3%BCcut%20Lazer%20Epilasyon%20(4000%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905445374882?text=Merhaba%2C%20Kavitasyon%20B%C3%B6lgesel%20Zay%C4%B1flama%20(8%20Seans%20699%E2%82%BA)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
             </OwlCarousel>
         </div>    
