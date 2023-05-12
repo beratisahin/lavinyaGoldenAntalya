@@ -3,12 +3,14 @@ import React from "react";
 import useDocumentTitle from "../../useDocumentTitle.js";
 import Title from "../title/Title";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import Mail from "./ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
 import HomeIcon from "@material-ui/icons/Home";
-
+import i1 from "./1.webp";
+import i2 from "./2.webp";
+import i3 from "./3.webp";
+import i4 from "./4.webp";
 
 function Iletisim() {
   useDocumentTitle("İletişim - Antalya Lavinya Golden Güzellik Merkezi ");
@@ -26,56 +28,45 @@ function Iletisim() {
       </div>
 
       <div class="col-lg-6s col-md-6 col-sm-12 col-12" style={{}}>
-        <p className="contactInfo">İletişim Bilgilerimiz</p>
-
-        <p style={{ fontSize: "medium", textAlign: "left" }}>
-          {" "}
-          <a href="mailto:lavinya.golden.antalya@gmail.com">
-            <ContactMailIcon style={{ fontSize: "x-large" }} />
-          </a>
-          &nbsp; lavinya.golden.antalya@gmail.com
-        </p>
-        <p style={{ fontSize: "medium", textAlign: "left" }}>
-          {" "}
-          <a
-            href="tel: +905445374882"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <WhatsAppIcon style={{ fontSize: "x-large", color: "#25d366" }} />
-          </a>
-          &nbsp; <b>0544 537 48 82</b>{" "}
-          <FontAwesomeIcon icon="coffee" size="lg" />
-        </p>
-        <p style={{ fontSize: "14px", textAlign: "left" }}>
-              <a
-                href="https://goo.gl/maps/JKy272hFMBL8aCCJ7"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <HomeIcon style={{ fontSize: "24px"}} />
-              </a>
-              &nbsp; Tahılpazarı Mahallesi Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24
-              (MarkAntalya AVM Karşısı, ING Bank Üzerindeyiz)
-              
-            </p>
-
-            <p style={{ fontSize: "14px", textAlign: "left" }}>
-              <a
-                href="https://goo.gl/maps/JKy272hFMBL8aCCJ7"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <LocationOnIcon style={{ fontSize: "24px" , color:"red" }} />
-              </a>
-              &nbsp; 
-              <b>Muratpaşa / ANTALYA</b>{" "}
-            </p>
+        <div class="row" style={{}}>
+          <div class="col-lg-6s col-md-6 col-sm-12 col-12">
+            <img
+              src={i1}
+              className="contactIcons"
+              title="Konum"
+            ></img>
+            <p className="contactText"><b>Adres:</b><br/>Tahılpazarı Mah. Adnan Menderes Bulvarı Kent iş Merkezi No:11 Kat:7 Daire:24 (MarkAntalya AVM Karşısı, ING Bank Üzerindeyiz), Muratpaşa / Antalya</p>
+          </div>
+          <div class="col-lg-6s col-md-6 col-sm-12 col-12">
+            <img
+              src={i2}
+              className="contactIcons"
+              title="Rezervasyon"
+            ></img>
+            <p className="contactText"><b>Rezervasyon:</b> <br/>0544 537 48 82</p>
+          </div>
+          <div class="col-lg-6s col-md-6 col-sm-12 col-12">
+            <img
+              src={i3}
+              className="contactIcons"
+              title="Çalışma Saatleri"
+            ></img>
+            <p className="contactText"><b>Çalışma Saatleri:</b> <br/>Her Gün: 09:00 – 19:00</p>
+          </div>
+          <div class="col-lg-6s col-md-6 col-sm-12 col-12">
+            <img
+              src={i4}
+              className="contactIcons"
+              title="WhatsApp"
+            ></img>
+            <p className="contactText"><b>WhatsApp:</b> <br/>0544 537 48 82</p>
+          </div>
+        </div>
       </div>
 
       <div class="col-lg-6 col-md-6 col-sm-12 col-12">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1221.3894889326127!2d30.70566908754523!3d36.893985081323606!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2958a6926cf88549%3A0xd34d698391e21bd4!2sLavinya%20Golden%20Antalya!5e0!3m2!1str!2str!4v1678278757736!5m2!1str!2str"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6225.46886952222!2d35.48490738332824!3d38.72390568604875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b6b48b07d9223%3A0x49f6230e653e9292!2sLavinya%20Golden%20Kayseri!5e0!3m2!1str!2str!4v1681054352343!5m2!1str!2str"
           className="googleharita"
           style={{
             width: "100%",
@@ -85,7 +76,6 @@ function Iletisim() {
             referrerpolicy: "no-referrer-when-downgrade",
             ariaHidden: "false",
             tabIndex: "0",
-            border: "2px #E59026 solid",
             paddingBottom: "0.5rem",
             paddingTop: "0.5rem",
           }}
@@ -93,7 +83,6 @@ function Iletisim() {
           {" "}
         </iframe>
       </div>
-      <Mail />
     </div>
   );
 }
